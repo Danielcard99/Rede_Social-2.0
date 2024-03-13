@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f6f6f9;
+}
+
+section.main-feed {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 18%;
+  padding: 20px 50px;
+  background-color: #dedee5;
+}
+
+.feed {
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  width: 82%;
+}
+
+.menu-sidebar a {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 12px;
+  color: #454545;
+  text-decoration: none;
+}
+
+.menu-sidebar a:hover {
+  font-weight: bold;
+}
+
+.menu-sidebar h4 {
+  color: #454545;
+  margin-bottom: 15px;
+}
+
+.logo-sidebar img {
+  max-width: 150px;
+  min-width: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  right: 50px;
+}
+
+.feed-wraper {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.feed-single-post {
+  padding: 30px 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.feed-single-post-content {
+  margin: 10px 0;
+}
+
+.feed-single-post-content p {
+  color: #555;
+  font-size: 15px;
+}
+
+.feed-single-post-content img {
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+.friends-request-feed {
+  width: 28%;
+  margin-left: 2%;
+  background-color: white;
+  padding: 30px;
+  color: #454545;
+  border-radius: 10px;
+}
+
+.friends-request-single {
+  display: flex;
+  margin-top: 5px;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.friends-request-single img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.friends-request-single-info h3 {
+  font-size: 15px;
+  color: #454545;
+  margin-bottom: 3px;
+}
+
+.friends-request-single-info a {
+  text-decoration: none;
+  color: #069;
+}
+
+.friends-request-single-info a:nth-child(1):hover {
+  color: green;
+}
+
+.friends-request-single-info a:nth-child(2):hover {
+  color: red;
+}
+
+.feed-single-post-author {
+  display: flex;
+  color: #454545;
+}
+
+.feed-single-post-author h2 {
+  font-size: 17px;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.feed-single-post-author p {
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+.img-single-post-author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.feed-form form {
+  width: 100%;
+}
+
+.feed-form textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.feed-form input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  background-color: #069;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: block;
+  border-radius: 5px;
+}
+
+.editar-perfil {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.editar-perfil img {
+  margin: 10px 0;
+  max-width: 170px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.editar-perfil input[type="text"],
+.editar-perfil input[type="password"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editar-perfil input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+  border: 2px dashed #ccc;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.editar-perfil input[type="submit"] {
+  background-color: #2c2c69;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.editar-perfil label {
+  color: #666;
+  display: inline-block;
+  padding-bottom: 5px;
+}
